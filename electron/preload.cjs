@@ -3,6 +3,8 @@ contextBridge.exposeInMainWorld('aliant', {
   version: () => ipcRenderer.invoke('app:version'),
   config: () => ipcRenderer.invoke('launcher:config'),
   gamePath: () => ipcRenderer.invoke('launcher:game-path'),
+  nickname: () => ipcRenderer.invoke('launcher:get-nickname'),
+  setNickname: nickname => ipcRenderer.invoke('launcher:set-nickname', nickname),
   chooseGamePath: () => ipcRenderer.invoke('launcher:set-game-path'),
   launch: (exe, args) => ipcRenderer.invoke('launcher:launch', exe, args),
   updateGame: () => ipcRenderer.invoke('launcher:update-game'),

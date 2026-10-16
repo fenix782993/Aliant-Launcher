@@ -1,7 +1,6 @@
-
 {
   "name": "aliant-launcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Aliant Launcher for Black Test",
   "main": "electron/main.cjs",
   "author": "Aliant",
@@ -43,7 +42,9 @@
       "target": [
         {
           "target": "nsis",
-          "arch": ["x64"]
+          "arch": [
+            "x64"
+          ]
         }
       ],
       "artifactName": "Aliant-Setup-${version}.${ext}"
