@@ -20,12 +20,7 @@
     "shop": "",
     "support": ""
   },
-  "footer": "ALIANT ROLEPLAY • ТВОЯ ИСТОРИЯ НАЧИНАЕТСЯ ЗДЕСЬ",
-  "banner": {
-    "title": "ALIANT ROLEPLAY",
-    "subtitle": "ТВОЙ МИР • ТВОИ ПРАВИЛА"
-  },
   "onlineApi": "",
   "gameManifestUrl": "",
-  "launcherVersion": "1.0.3"
+  "launcherVersion": "1.0.4"
 }
