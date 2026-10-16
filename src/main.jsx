@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { Shield, Settings, Minus, X, ChevronDown, Users, Play, Download, RefreshCw, FolderOpen, ExternalLink, CircleHelp, Monitor, CheckCircle2, AlertCircle, Flame, Gamepad2, Crown, LockKeyhole } from 'lucide-react';
 import './style.css';
+import statusStrip from './status-strip.png';
 
 const fallback = {
   brand: 'ALIANT', subtitle: 'ROLEPLAY COMMUNITY', selectedServer: 'Black Test',
@@ -53,7 +54,7 @@ function App(){
     <div className="notice"><div className="notice-icon"><RefreshCw size={18}/></div><div className="notice-text"><b>{updateReady?'Обновление готово':updateAvailable?'Доступно обновление лаунчера':'Обновления без лишних действий'}</b><p>{update||'При запуске лаунчер проверяет новую версию. Игровые файлы и настройки не удаляются.'}</p>{updateAvailable&&updateProgress>0&&<div className="progress-track"><span style={{width:`${updateProgress}%`}}/></div>}</div><button className="update-action" onClick={updateAvailable?updateLauncher:refresh} aria-label="Обновить">{updateReady?'Перезапустить':updateAvailable?'Обновить':<RefreshCw size={16}/>}</button></div>
    </section>}
    
-   <footer className="launcher-status"><img src="/src/status-strip.png" alt="Система лаунчера — Online" /></footer>
+   <footer className="launcher-status"><img src={statusStrip} alt="Система лаунчера — Online" /></footer>
   </main>
  </div>
 }

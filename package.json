@@ -1,6 +1,6 @@
 {
   "name": "aliant-launcher",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Aliant Launcher for Black Test",
   "main": "electron/main.cjs",
   "author": "Aliant",
@@ -56,13 +56,6 @@
       "createStartMenuShortcut": true,
       "shortcutName": "Aliant Launcher",
       "deleteAppDataOnUninstall": false
-    },
-    "publish": [
-      {
-        "provider": "github",
-        "owner": "fenix782993",
-        "repo": "Aliant-Launcher"
-      }
-    ]
+    }
   }
 }
