@@ -1,3 +1,4 @@
+
 {
   "name": "aliant-launcher",
   "version": "1.0.0",
@@ -30,10 +31,21 @@
     "appId": "ru.aliant.launcher",
     "productName": "Aliant Launcher",
     "asar": true,
-    "directories": { "output": "release" },
-    "files": ["dist/**/*", "electron/**/*", "package.json"],
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "package.json"
+    ],
     "win": {
-      "target": [{ "target": "nsis", "arch": ["x64"] }],
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64"]
+        }
+      ],
       "artifactName": "Aliant-Setup-${version}.${ext}"
     },
     "nsis": {
@@ -44,6 +56,12 @@
       "shortcutName": "Aliant Launcher",
       "deleteAppDataOnUninstall": false
     },
-    "publish": [{ "provider": "github", "owner": "YOUR_GITHUB_OWNER", "repo": "Aliant-Launcher" }]
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "fenix782993",
+        "repo": "Aliant-Launcher"
+      }
+    ]
   }
 }
