@@ -1,0 +1,30 @@
+{
+  "brand": "ALIANT",
+  "subtitle": "ROLEPLAY COMMUNITY",
+  "selectedServer": "black-test",
+  "servers": [
+    {
+      "id": "black-test",
+      "name": "Black Test",
+      "description": "Основной игровой сервер",
+      "status": "unknown",
+      "online": null,
+      "maxPlayers": 1000,
+      "executable": "",
+      "args": []
+    }
+  ],
+  "links": {
+    "site": "",
+    "forum": "",
+    "shop": "",
+    "support": ""
+  },
+  "footer": "ALIANT ROLEPLAY • ТВОЯ ИСТОРИЯ НАЧИНАЕТСЯ ЗДЕСЬ",
+  "banner": {
+    "title": "ALIANT ROLEPLAY",
+    "subtitle": "ТВОЙ МИР • ТВОИ ПРАВИЛА"
+  },
+  "onlineApi": "",
+  "gameManifestUrl": ""
+}

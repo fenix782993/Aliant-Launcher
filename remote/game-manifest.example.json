@@ -1,0 +1,9 @@
+{
+  "files": [
+    {
+      "path": "client/example.dat",
+      "url": "https://example.com/path/to/file.dat",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ]
+}
