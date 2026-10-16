@@ -26,5 +26,6 @@
     "subtitle": "ТВОЙ МИР • ТВОИ ПРАВИЛА"
   },
   "onlineApi": "",
-  "gameManifestUrl": ""
+  "gameManifestUrl": "",
+  "launcherVersion": "1.0.3"
 }
